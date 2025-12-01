@@ -397,4 +397,11 @@ return {
       "neovim/nvim-lspconfig",
     },
   },
+
+  -- Blink completion tool
+  {
+    "saghen/blink.cmp",
+    version = "1.x",
+    opts_extend = { "sources.default" },
+  },
 }
